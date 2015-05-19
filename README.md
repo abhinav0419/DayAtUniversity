@@ -9,3 +9,6 @@ Html,
 Bootstrap,
 Jstl,
 maven
+
+Project can be accessed at 
+http://default-environment-ytmaq3qm8r.elasticbeanstalk.com/
