@@ -33,6 +33,7 @@
 						
 						$("#mon").click(function() {
 							$("#t1").show();
+							$("#t2").show();
 							$(".hid").show();
 							$("#tue").prop("disabled", true);
 							$("#wed").prop("disabled", true);
@@ -41,6 +42,7 @@
 						});
 						$("#tue").click(function() {
 							$("#t1").show();
+							$("#t2").show();
 							$(".hid").show();
 							$("#mon").prop("disabled", true);
 							$("#wed").prop("disabled", true);
@@ -49,6 +51,7 @@
 						});
 						$("#wed").click(function() {
 							$("#t1").show();
+							$("#t2").show();
 							$(".hid").show();
 							$("#mon").prop("disabled", true);
 							$("#tue").prop("disabled", true);
@@ -57,6 +60,7 @@
 						});
 						$("#thu").click(function() {
 							$("#t1").show();
+							$("#t2").show();
 							$(".hid").show();
 							$("#tue").prop("disabled", true);
 							$("#wed").prop("disabled", true);
@@ -65,6 +69,7 @@
 						});
 						$("#fri").click(function() {
 							$("#t1").show();
+							$("#t2").show();
 							$(".hid").show();
 							$("#tue").prop("disabled", true);
 							$("#wed").prop("disabled", true);
@@ -125,10 +130,30 @@ btn-default btn-block" id="tue">Tuesday</button>
 	</div>
 	<div style="float: right; display: inline-block; margin-right: 102px;"
 		class="div2">
+		
+		<table id="t2" border="1" style="display: none;width:100%">
+				<tr style="font-weight:bold;color:white;background-color:black">
+					<td align="center">Time example</td>
+					<td align="center">Course Name example</td>
+					<td align="center">Building Name example</td>
+					<td align="center">City example</td>
+					<td align="center">State example</td>
+					<td align="center">Country example</td>
+				</tr>
+				<tr style="color:black;background-color:white">
+					<td align="center">1-2</td>
+					<td align="center">Operating System</td>
+					<td align="center">Reitz Union</td>
+					<td align="center">Gainesville</td>
+					<td align="center">Florida</td>
+					<td align="center">USA</td>
+				</tr>
+				</table>
+
 
 		<form:form action="second" commandName="getSchedule" method="post">
 
-			<table id="t1" border="1" style="display: none">
+			<table id="t1" border="1" style="display: none;width:100%">
 				<tr style="font-weight:bold;color:white;background-color:black">
 					<td align="center">Time</td>
 					<td align="center">Course Name</td>
