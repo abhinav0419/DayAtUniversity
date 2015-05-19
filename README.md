@@ -11,4 +11,4 @@ Jstl,
 maven
 
 Project can be accessed at 
-http://default-environment-snyhrgrc3v.elasticbeanstalk.com/
+http://default-environment-vjzs3btmx9.elasticbeanstalk.com/
