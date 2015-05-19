@@ -1,0 +1,23 @@
+body {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.data,.data td {
+	border-collapse: collapse;
+	width: 500px;
+	border: 1px solid #aaa;
+	margin: 2px;
+	padding: 2px;
+}
+
+.data th {
+	text-align: left;
+	/*http://ie.microsoft.com/testdrive/Graphics/CSSGradientBackgroundMaker/Default.html*/
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #00A2ED 100%);
+	color: #000000;
+}
+
+.errorMsg{
+	color:red;
+}
