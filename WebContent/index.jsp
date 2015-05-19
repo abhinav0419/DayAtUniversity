@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Net Boss Intern</title>
+    <title>Hobby</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="resource/css/bootstrap.min.css" rel="stylesheet">
@@ -109,7 +109,7 @@
                     <h2 class="brand-before">
                         <small></small>
                     </h2>
-                    <p class="brand-name" id="two">Made By Subhanshu Badaya</p>
+                    <p class="brand-name" id="two">Made By Abhinav Pandey</p>
                     
                    
                 </div>
